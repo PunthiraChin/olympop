@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Welcome to Olympop!</h1>;
+  return (
+    <div className="bg-red-100">
+      <h1>Welcome to Olympop!</h1>
+    </div>
+  );
 }
